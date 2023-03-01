@@ -33,6 +33,7 @@ instance_type = "t2.medium"
 #!/bin/bash
 sudo -i
 yum install httpd -y
+  kit
 systemctl start httpd
 chkconfig httpd on
 echo "hai all this is my swiggy application created by terraform infrastructurte by raham sir server-2" > /var/www/html/index.html
